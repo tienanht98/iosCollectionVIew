@@ -27,7 +27,6 @@ class ViewController: UIViewController , UINavigationControllerDelegate, UIImage
             self.present(imagePicker, animated: true, completion: nil)
         }
     }
-   
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
         arrImag.append(image)
@@ -36,6 +35,15 @@ class ViewController: UIViewController , UINavigationControllerDelegate, UIImage
              self.myColectionView.reloadData()
         })
     }
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
+                                                                         withReuseIdentifier: "Titel",
+                                                                         for: indexPath) as! myCollectionReusableView
+        headerView.lbTitel.text = "Album của tôi"
+        return headerView
+    }
+    
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return arrImag.count
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42C07B17212413F200C45458 /* myCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C07B16212413F200C45458 /* myCollectionReusableView.swift */; };
 		42D29DDA2122D70300FAB474 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D29DD92122D70300FAB474 /* AppDelegate.swift */; };
 		42D29DDC2122D70300FAB474 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D29DDB2122D70300FAB474 /* ViewController.swift */; };
 		42D29DDF2122D70300FAB474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D29DDD2122D70300FAB474 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42C07B16212413F200C45458 /* myCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionReusableView.swift; sourceTree = "<group>"; };
 		42D29DD62122D70300FAB474 /* cltview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cltview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D29DD92122D70300FAB474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42D29DDB2122D70300FAB474 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				42D29DDB2122D70300FAB474 /* ViewController.swift */,
 				42D29DDD2122D70300FAB474 /* Main.storyboard */,
 				42D29DEB2122D9B700FAB474 /* myCollectionViewCell.swift */,
+				42C07B16212413F200C45458 /* myCollectionReusableView.swift */,
 				42D29DE02122D70600FAB474 /* Assets.xcassets */,
 				42D29DE22122D70600FAB474 /* LaunchScreen.storyboard */,
 				42D29DE52122D70600FAB474 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42D29DEC2122D9B700FAB474 /* myCollectionViewCell.swift in Sources */,
+				42C07B17212413F200C45458 /* myCollectionReusableView.swift in Sources */,
 				42D29DDC2122D70300FAB474 /* ViewController.swift in Sources */,
 				42D29DDA2122D70300FAB474 /* AppDelegate.swift in Sources */,
 			);
